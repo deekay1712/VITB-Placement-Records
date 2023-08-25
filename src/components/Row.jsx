@@ -48,12 +48,12 @@ export default function Row({item}) {
                 }
 
                 {
-                    item.stipend &&
+                    item.month_of_visit &&
                     <>
                         <br />
                         <br />
-                        <span className={styles.detailsBold}>Stipend: </span>
-                        <span>₹ {item.stipend}</span>
+                        <span className={styles.detailsBold}>Month of Visit: </span>
+                        <span>{item.month_of_visit}</span>
                     </>
                 }
                 
@@ -66,6 +66,17 @@ export default function Row({item}) {
                         <span>10th: {item.tenth_per}%, 12th: {item.twelfth_per}%, UG: {item.ug_cgpa} CGPA</span>
                     </>
                 }
+
+                {
+                    item.stipend &&
+                    <>
+                        <br />
+                        <br />
+                        <span className={styles.detailsBold}>Stipend: </span>
+                        <span>₹ {item.stipend}</span>
+                    </>
+                }
+
                 {
                     item.comments &&
                     <>

@@ -11,7 +11,7 @@
 .row{
   padding: 2rem 0 1rem 0;
   width: 100%;
-  border-bottom: 2px solid rgba(var(--callout-border-rgb), 0.3);
+  border-bottom: 2px solid rgba(172, 175, 176, 0.3);
   margin: 1rem;
 }
 
@@ -56,17 +56,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  background-color: rgba(20, 20, 20, 0.5);
+  border: 1px solid rgba(172, 175, 176, 0.3);
 }
 
 .details {
   font-size: 0.85rem;
   width: 100%;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
+  background-color: rgba(20, 20, 20, 0.5);
+  border: 1px solid rgba(172, 175, 176, 0.3);
+  border-radius: 12px;
   font-family: var(--font-mono);
 }
 

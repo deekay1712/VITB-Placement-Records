@@ -79,3 +79,20 @@
   font-family: var(--font-mono);
 }
 
+@media (max-width: 992px){
+  .content{
+    flex-direction: column;
+  }
+  .column{
+    margin-bottom: 0.5rem;
+  }
+  .upper{
+    margin-bottom: 0.5rem;
+  }
+  .main{
+    padding: 2rem;
+  }
+  .row{
+    padding: 1rem;
+  }
+}

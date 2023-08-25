@@ -27,7 +27,8 @@ export async function getStaticProps(){
   const response = await fetch('https://script.google.com/macros/s/AKfycbwffGCgckZx-cTHIRthp9txG8HkVj9YZ18ajr6GnD6TG60b1pe1IcS5w9YIEcKkz7-1/exec')
   const data = await response.json()
   return{
-    props: data
+    props: data,
+    revalidate: 60*60
   }
 }
 
